@@ -25,12 +25,7 @@ const FooterOne = ({ bgColor }) => {
                     <div className="footer-widget">
                       <div className="logo">
                         <Link href="/">
-                          <Image
-                            src={logo}
-                            width={152}
-                            height={50}
-                            alt="Edu-cause"
-                          />
+                          <Image src={logo} width={45} alt="Edu-cause" />
                         </Link>
                       </div>
 

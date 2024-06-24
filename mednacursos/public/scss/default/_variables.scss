@@ -1,8 +1,8 @@
 /*-- Variables --*/
 :root {
   //Themes colors
-  --color-primary: #2f57ef;
-  --color-secondary: #b966e7;
+  --color-primary: #01a08a;
+  --color-secondary: #363362;
   --color-coral: #e9967a;
   --color-violet: #800080;
   --color-pink: #db7093;
@@ -53,8 +53,8 @@
   --color-card-2: #ffedff;
   --color-card-3: #ffe8eb;
   --color-card-4: #e9f6ff;
-  --color-card-5: #5024d1;
-  --color-card-6: #3b3b46;
+  --color-card-5: #01a08a;
+  --color-card-6: #363362;
 
   // Then Notify Colors
   --color-success: #3eb75e;
@@ -158,13 +158,13 @@
     rgb(255, 255, 255) 0%,
     rgb(239, 241, 255) 100%
   ); //Section Shade
-  --gradient-4: linear-gradient(180deg, #fff, #f6f9ff); //Section Shade
+  --gradient-4: linear-gradient(180deg, #fff, #01a08a); //Section Shade
   --gradient-2: linear-gradient(
     0deg,
     rgb(255, 255, 255) 0%,
     rgb(240, 242, 255) 100%
   ); //Bottom Shade
-  --gradient-3: linear-gradient(90deg, #8da9fc 0%, #b48dd5 100%); //Bottom Shade
+  --gradient-3: linear-gradient(90deg, #01a08a 0%, #006d7a 100%); //Bottom Shade
   --gradient-4: linear-gradient(180deg, #eff1ff 0%, #ffffff 100%);
   --gradient-5: linear-gradient(rgb(239, 241, 255) 0%, rgb(239, 241, 255) 100%);
   --gradient-6: linear-gradient(
@@ -178,8 +178,8 @@
     var(--color-secondary) 0%,
     var(--color-primary) 100%
   );
-  --gradient-8: linear-gradient(270deg, #9e77ff 0%, #4460ff 100%);
-  --gradient-9: linear-gradient(180deg, #6827ff 0%, #e3f0ff 100%);
+  --gradient-8: linear-gradient(270deg, #01a08a 0%, #363362 100%);
+  --gradient-9: linear-gradient(180deg, #006d7a 0%, #e3f0ff 100%);
 }
 
 // Layouts Variation

@@ -1573,7 +1573,7 @@ ul.rbt-dropdown-menu li a {
 .theme-mainbg-gradient {
   background-color: var(--color-light);
   position: relative;
-  background-image: url(../images/bg/bg-g1.webp);
+  background-image: url(../images/bg/bg-g1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -27470,7 +27470,7 @@ blockquote.has-text-align-right cite,
   padding: 0 150px;
   position: relative;
   overflow: hidden;
-  background-image: url(../images/bg/bg-g1.webp);
+  background-image: url(../images/bg/bg-g1.png);
   background-position: top center;
 }
 
@@ -27869,7 +27869,7 @@ blockquote.has-text-align-right cite,
 .rbt-banner-2 {
   background-color: var(--color-light);
   position: relative;
-  background-image: url(../images/bg/bg-g1.webp);
+  background-image: url(../images/bg/bg-g1.png);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;

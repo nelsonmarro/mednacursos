@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/public/register
+Content-Type: application/json
+
+{
+  "first_name": "Ana",
+  "last_name": "Casrtoh",
+  "cedula": "1234567899",
+  "email": "ana@email.com",
+  "phone": "1234567899",
+  "university": "Universidad de EC",
+  "address_line1": "123 Main St",
+  "address_line2": "Apt 123",
+  "city": "San Jose",
+  "state": "San Jose state",
+  "password": "123456",
+  "confirm_password": "123456",
+  "roles": [1,2]
+}

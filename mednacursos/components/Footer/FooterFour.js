@@ -22,8 +22,7 @@ const FooterFour = () => {
                         <Link href="/">
                           <Image
                             src={logo}
-                            width={152}
-                            height={50}
+                            width={45}
                             priority={true}
                             alt="Edu-cause"
                           />

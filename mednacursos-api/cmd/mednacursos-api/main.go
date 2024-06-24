@@ -1,9 +1,22 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"log"
+
+	"github.com/nelsonmarro/mednacursos/mednacursos-api/internal/api/config"
+	"github.com/nelsonmarro/mednacursos/mednacursos-api/internal/api/db"
+	"github.com/nelsonmarro/mednacursos/mednacursos-api/internal/api/router"
+)
 
 func main() {
-	r := gin.Default()
+	config.LoadConfig()
 
-	r.Run() // listen and serve on 0.0.0.0:8080
+	dsn := config.C.DBDSM
+	db.ConnectDatabase(dsn)
+	db.Seed(db.DB)
+
+	r := router.SetupRouter()
+	if err := r.Run(":8080"); err != nil {
+		log.Fatal("Failed to run server:", err)
+	}
 }

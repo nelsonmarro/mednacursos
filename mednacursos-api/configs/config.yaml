@@ -1,0 +1,2 @@
+DB_DSN: "nelson:nelson9199@tcp(127.0.0.1:3306)/mednacursos?charset=utf8mb4&parseTime=True&loc=Local"
+JWT_SECRET: "00382ddb1f6af700352e7c40728f9d1243ac2cfdff025d154255d9aff1d74051"
